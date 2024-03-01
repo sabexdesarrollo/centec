@@ -6,6 +6,7 @@ import coin from "@/assets/images/coin.jpg"
 import subsidies from "@/assets/images/subsidies.jpg"
 import smile_persons from "@/assets/images/multiple_persons_smile.png"
 import women from "@/assets/images/one_person_female.png"
+import smile_persons_two from "@/assets/images/smile_persons_two.jpg"
 
 const images = {
   lgtp_letters,
@@ -15,7 +16,8 @@ const images = {
   coin,
   subsidies,
   smile_persons,
-  women
+  women,
+  smile_persons_two
   
 };
 
