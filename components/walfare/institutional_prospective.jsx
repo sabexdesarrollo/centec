@@ -18,7 +18,7 @@ export default function InstitutionalProspective() {
                   Dentro de su oferta El COLEGIO CENTEC ofrece formación de
                   bachillerato por ciclos para adultos con base en el Decreto
                   3011 de 1997. En prospectiva enfoca y proyecta su gestión
-                  educativa en los siguientes aspectos académicos
+                  educativa en los siguientes aspectos académicos.
                 </p>
               </div>
 
@@ -39,6 +39,13 @@ export default function InstitutionalProspective() {
                 </ul>
               </div>
             </div>
+            <p className="mt-6 text-base lg:text-lg text-gray-300 pb-8">
+              La prospectiva institucional del COLEGIO CENTEC se enfoca en una
+              gestión educativa que es adaptable, relevante, flexible y centrada
+              en el bienestar y el éxito de los adultos que buscan completar su
+              bachillerato, reconociendo sus necesidades y aspiraciones
+              particulares.
+            </p>
           </div>
         </div>
       </div>
