@@ -52,7 +52,7 @@ export default function Navbar() {
                   <div
                     className={`absolute z-50 ${
                       activeSubMenu === index ? "block" : "hidden"
-                    } mt-2 ml-6 space-y-0.5 bg-white shadow-xl rounded-r-md rounded-b-md py-2`}
+                    } mt-2 mx-auto ml-6 space-y-0.5 bg-white shadow-xl rounded-r-md rounded-b-md py-2 w-[13rem]`}
                   >
                     {item.submenu.map((subItem) => (
                       <a

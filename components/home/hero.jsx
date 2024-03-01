@@ -3,7 +3,7 @@ import images from "@/assets/images/dir";
 
 export default function Hero() {
   return (
-    <div className="overflow-hidden py-20 sm:py-32">
+    <div className="relative -z-50 overflow-hidden py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-0 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">

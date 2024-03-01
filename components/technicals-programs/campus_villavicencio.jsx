@@ -7,7 +7,7 @@ export default function CampusVillavicencio() {
     <>
       <div
         id="sede-villavicencio"
-        className="overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue"
+        className="relative -z-50 overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue"
       >
         <Campus
           bgLeft="from-secondaryGreen"

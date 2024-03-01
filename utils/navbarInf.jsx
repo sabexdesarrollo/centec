@@ -93,7 +93,40 @@ export const CARD = [
       },
     ],
   },
-  { title: "Colegio centec", urlPath: "/colegio-centec" },
+  { title: "Colegio centec", urlPath: "/colegio-centec", submenu: [
+    { 
+      title: "Prospectiva institucional",
+      urlPath: "/colegio-centec#prospectiva-institucional"
+    },
+    {
+      title: "Horizonte institucional",
+      urlPath: "/colegio-centec#horizonte-institucional",
+    },
+    {
+      title: "Principios institucionales",
+      urlPath: "/colegio-centec#principios-institucionales",
+    },
+    {
+      title: "Valores instittucionales",
+      urlPath: "/colegio-centec#valores-institucionales",
+    },
+    {
+      title: "Admisiones y financiacion",
+      urlPath: "/colegio-centec#adminsiones-y-financiaciones",
+    },
+    {
+      title: "Subsidios educativos",
+      urlPath: "colegio-centec#subsidios-educativos",
+    },
+    {
+      title: "Requisitos de matrícula",
+      urlPath: "colegio-centec#requisitos-de-matricula",
+    },
+    {
+      title: "Gestión académica",
+      urlPath: "colegio-centec#gestion-academica",
+    }
+  ] },
 
   {
     title: "Educación continua",
