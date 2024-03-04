@@ -1,71 +1,51 @@
 import Image from "next/image";
 
-import LIST from "@/utils/instututional_values_list";
+import { LIST_VALUES } from "@/utils/instututional_values_list";
 import images from "@/assets/images/dir";
 
 export default function InstitutionalValues() {
   return (
-    <>
-      <section
-        id="valores-institucionales"
-        className="relative -z-50 overflow-hidden py-20 sm:py-32 lg:py-32 bg-primaryBlue"
-      >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl ">
-            <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-white">
-              Horizonte institucional
-            </h2>
-          </div>
+    <section
+      id="valores-institucionales"
+      className="relative overflow-hidden py-20 sm:py-32 lg:py-32 bg-primaryBlue"
+    >
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl ">
+          <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
+            Valores institucionales
+          </h2>
+          <p className="py-6 text-base lg:text-lg text-gray-300">
+            Este aspecto surge de la convergencia de los valores institucionales
+            y la reflexión sobre los principios académicos, los cuales
+            desempeñan un papel crucial en el fortalecimiento y la
+            transformación de cada sector económico y social. En este contexto,
+            se definen los siguientes Valores Institucionales:
+          </p>
+        </div>
         <div class="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
-            <Image
-              alt=""
-              loading="lazy"
-              decoding="async"
-              data-nimg="1"
-              className="w-full"
-              src={images.smile_persons_two}
-            />
-          </div>
+          <Image
+            alt=""
+            loading="lazy"
+            decoding="async"
+            data-nimg="1"
+            className="w-full opacity-60 saturate-150"
+            src={images.smile_persons_two}
+          />
         </div>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-gray-200">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
-            <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-              <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
-                Misión
-              </h3>
-              <p className="mt-6 text-base lg:text-lg text-gray-300 pb-8">
-                Nuestra misión es brindar una educación de alta calidad y
-                accesible que permita a los adultos alcanzar su título de
-                bachiller, ofreciendo un entorno de aprendizaje enriquecedor y
-                apoyo personalizado. Nos comprometemos a superar las barreras
-                educativas, fomentando la inclusión y la igualdad de
-                oportunidades para adultos de todas las edades y antecedentes.
-                Buscamos empoderar a nuestros estudiantes para que desarrollen
-                habilidades académicas y personales, promoviendo el aprendizaje
-                a lo largo de toda la vida y su participación activa en la
-                sociedad.
-              </p>
-            </div>
-            <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-              <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
-                Visión
-              </h3>
-              <p className="mt-6 lg:text-lg text-base text-gray-300">
-                Nuestra visión es ser un referente nacional e internacional en
-                la educación de adultos, reconocidos por la excelencia
-                académica, la innovación pedagógica y el compromiso con la
-                formación continua. Visualizamos un entorno educativo inclusivo
-                y diverso que fomente el desarrollo de habilidades críticas y
-                ciudadanas en nuestros estudiantes, preparándolos para enfrentar
-                los desafíos del siglo XXI. Aspiramos a ser un puente hacia
-                nuevas oportunidades, donde la educación sea una fuerza
-                transformadora en la vida de nuestros alumnos y en la sociedad
-                en general.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
+      </div>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-gray-200 pt-4 lg:pt-16">
+        <ul className="mx-auto lg:grid gap-8 text-sm lg:gap-y-2 lg:grid-cols-3">
+          {LIST_VALUES.map((item, index) => (
+            <li
+              key={index}
+              className="p-4 mb-4 lg:mb-6 rounded-tl-xl rounded-br-3xl bg-gradient-to-bl from-secondaryDarkBlue/50 to-secondaryGreen/20"
+            >
+              <h3 className="font-bold text-gray-200 text-sm lg:text-lg">{item.name}</h3>
+              <p className="text-xs lg:text-base text-gray-300">{item.description}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
   );
 }

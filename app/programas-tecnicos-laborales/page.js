@@ -6,7 +6,7 @@ export default function TechnicalsPrograms() {
   return (
     <>
       <CampusVillavicencio />
-       <CampusAcacias />
+      <CampusAcacias />
       <CampusGranada />
     </>
   );
