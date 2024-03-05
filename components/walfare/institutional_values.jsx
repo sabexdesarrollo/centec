@@ -10,7 +10,7 @@ export default function InstitutionalValues() {
       className="relative overflow-hidden py-20 sm:py-32 lg:py-32 bg-primaryBlue"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl ">
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl ">
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
             Valores institucionales
           </h2>
@@ -22,7 +22,7 @@ export default function InstitutionalValues() {
             se definen los siguientes Valores Institucionales:
           </p>
         </div>
-        <div class="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
+        <div class="relative lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
           <Image
             alt=""
             loading="lazy"
@@ -38,10 +38,14 @@ export default function InstitutionalValues() {
           {LIST_VALUES.map((item, index) => (
             <li
               key={index}
-              className="p-4 mb-4 lg:mb-6 rounded-tl-xl rounded-br-3xl bg-gradient-to-bl from-secondaryDarkBlue/50 to-secondaryGreen/20"
+              className="p-4 mb-4 lg:mb-6 rounded-tl-xl rounded-br-3xl bg-gradient-to-bl from-secondaryDarkBlue/90 to-secondaryGreen/20"
             >
-              <h3 className="font-bold text-gray-200 text-sm lg:text-lg">{item.name}</h3>
-              <p className="text-xs lg:text-base text-gray-300">{item.description}</p>
+              <h3 className="font-bold text-gray-200 text-sm lg:text-lg">
+                {item.name}
+              </h3>
+              <p className="text-xs lg:text-base text-gray-300">
+                {item.description}
+              </p>
             </li>
           ))}
         </ul>

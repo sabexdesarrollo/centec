@@ -80,7 +80,7 @@ export default function Footer() {
             >
               Sabex Tecnologia
             </Link>{" "}
-            <br />{`© Copyright ${year} . Todos los derechos reservados.`}
+            <br />{`© Copyright ${year}. Todos los derechos reservados.`}
           </p>
         </div>
       </div>
