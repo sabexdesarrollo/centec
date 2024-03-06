@@ -49,23 +49,46 @@ export const PRINCIPLES = [
   },
 ];
 
-export const SubPrincipleItem = ({ title, description }) => (
+export const SubPrincipleItem = ({
+  title,
+  description,
+  textColorDescrip,
+  textColorTitle,
+}) => (
   <div>
-    <h4 className="text-base font-semibold lg:text-lg text-gray-900">
+    <h4 className={`text-base font-semibold lg:text-lg ${textColorTitle}`}>
       {title}
     </h4>
-    <p className="text-gray-700 text-sm lg:text-base text-justify">{description}</p>
+    <p className={`text-sm lg:text-base text-justify ${textColorDescrip}`}>
+      {description}
+    </p>
   </div>
 );
 
-export const PrincipleItem = ({ title, description, subPrinciples }) => (
-  <li className="border-2 p-4 border-gray-200 rounded-xl shadow-lg">
-    <h3 className="text-lg lg:text-xl font-semibold text-gray-900">{title}</h3>
-    <p className="mt-2 text-base lg:text-lg text-gray-700 text-justify">{description}</p>
+export const PrincipleItem = ({
+  title,
+  description,
+  subPrinciples,
+  textColorDescrip,
+  textColorTitle,
+  border
+}) => (
+  <li className={`border p-4 ${border} rounded-xl shadow-lg`}>
+    <h3 className={`text-lg lg:text-xl font-semibold ${textColorTitle}`}>
+      {title}
+    </h3>
+    <p className={`mt-2 text-base lg:text-lg ${textColorDescrip} text-justify`}>
+      {description}
+    </p>
     {subPrinciples && (
       <div className="mt-4 grid gap-2">
         {subPrinciples.map((subPrinciple, index) => (
-          <SubPrincipleItem key={index} {...subPrinciple} />
+          <SubPrincipleItem
+            key={index}
+            {...subPrinciple}
+            textColorTitle={textColorTitle}
+            textColorDescrip={textColorDescrip}
+          />
         ))}
       </div>
     )}

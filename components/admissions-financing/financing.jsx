@@ -1,6 +1,14 @@
 import Image from "next/image";
 import images from "@/assets/images/dir";
-import { ShieldCheckIcon, ScaleIcon, WalletIcon, BanknotesIcon, RocketLaunchIcon } from "@heroicons/react/24/solid";
+import {
+  ShieldCheckIcon,
+  ScaleIcon,
+  WalletIcon,
+  BanknotesIcon,
+  RocketLaunchIcon,
+} from "@heroicons/react/24/solid";
+
+import { TEXT_COMPONENTS } from "@/utils/text_components";
 
 const CHARACTERISTIC_CREDIT = [
   {
@@ -24,33 +32,41 @@ const CHARACTERISTIC_CREDIT = [
     icon: RocketLaunchIcon,
   },
 ];
-export default function Financing() {
+export default function Financing({
+  iconColor,
+  textColorList,
+  textColorDescrip,
+  bg,
+  version,
+}) {
+  const textFinancing = TEXT_COMPONENTS[version];
   return (
     <div
       id="financiacion"
-      className="overflow-hidden bg-secondaryGreen py-20 sm:py-32 lg:py-32"
+      className={`overflow-hidden py-20 sm:py-32 lg:py-32 ${bg}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative mx-auto my-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6">
-            <h3 className="lg:text-5xl text-4xl text-secondaryDarkBlue font-bold tracking-tight">
+            <h3
+              className={`lg:text-5xl text-4xl ${textColorList} font-bold tracking-tight`}
+            >
               Financiación
             </h3>
-            <p className="mt-6 text-base lg:text-lg text-gray-700 pb-8">
-              <span className="font-bold text-gray-700">
+            <p className={`py-6 text-base lg:text-lg ${textColorDescrip}`}>
+              <span className={`font-bold ${textColorList}`}>
                 Financiación Directa:{" "}
               </span>
-              Crédito de corto plazo para financiación de Programas Técnicos,
-              Diplomados y cursos de educación continua, de fácil acceso para
-              que no frenes tus sueños. A continuación, encontrarás las
-              características del crédito:
+              {textFinancing.financing}
             </p>
             <dl className="max-w-xl space-y-4 text-base leading-7 text-gray-200 lg:max-w-none">
               {CHARACTERISTIC_CREDIT.map((item, index) => (
                 <div key={index}>
-                  <h3 className="text-base font-bold text-gray-700 lg:text-lg">
+                  <h3
+                    className={`text-base font-bold ${textColorList} lg:text-lg`}
+                  >
                     <item.icon
-                      className="inline-flex h-6 w-6 text-primaryBlue mr-1"
+                      className={`inline-flex h-6 w-6 ${iconColor} mr-1`}
                     />
                     {item.name}
                   </h3>

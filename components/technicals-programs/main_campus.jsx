@@ -29,8 +29,8 @@ export const Campus = ({
   };
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl">
-        <h2 className="text-4xl sm:text-5xl text-left font-bold tracking-tight text-white">
+      <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+        <h2 className="text-4xl sm:text-5xl pb-6 lg:pb-10 text-left font-bold tracking-tight text-white">
           {campusName}
         </h2>
       </div>

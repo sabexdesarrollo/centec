@@ -6,7 +6,13 @@ export default function OurInstitution() {
   return (
     <>
       <MissionVision />
-      <InstitutionalPrinciples />
+      <InstitutionalPrinciples
+        textColorTitle="text-gray-900"
+        textColorDescrip="text-gray-700"
+        textGeneralDesp="text-gray-600"
+        bg="bg-white"
+        border="border-gray-200"
+      />
       <InstitucionalObjectives />
     </>
   );

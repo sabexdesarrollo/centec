@@ -23,9 +23,9 @@ export default function RegistrationRequirements() {
               src={images.student}
             />
           </div>
-          <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl ">
-              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight">
+          <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6">
+            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+              <h2 className="text-4xl pb-6 lg:text-5xl font-bold tracking-tight">
                 Requisitos de matrícula
               </h2>
             </div>

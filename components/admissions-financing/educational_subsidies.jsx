@@ -2,12 +2,19 @@ import Image from "next/image";
 import images from "@/assets/images/dir";
 import { ButtonMoreInf } from "@/components/admissions-financing/button_more_inf";
 import { LIST_CHARACTERISTIC } from "@/utils/educational_subsidies_list";
+import { TEXT_COMPONENTS } from "@/utils/text_components";
 
-export default function EducationalSubsidies() {
+export default function EducationalSubsidies({
+  bg,
+  textColorSub,
+  textColorTitle,
+  version,
+}) {
+  const textSubsidies = TEXT_COMPONENTS[version];
   return (
     <div
       id="subsidios-educativos"
-      className="overflow-hidden py-20 sm:py-32 lg:py-32 bg-primaryBlue"
+      className={`overflow-hidden py-20 sm:py-32 lg:py-32 ${bg}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
@@ -23,19 +30,21 @@ export default function EducationalSubsidies() {
           </div>
 
           <div className="relative grid gap-y-4 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6">
-            <div className="pb-4 lg:pb-6 lg:max-w-3xl">
-              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
+            <div className="lg:max-w-3xl">
+              <h2
+                className={`text-4xl lg:text-5xl font-bold tracking-tight ${textColorTitle}`}
+              >
                 Subsidios educativos
               </h2>
             </div>
-            <h3 className="sm:text-4xl text-3xl font-medium tracking-tight text-gray-200">
+            <h3
+              className={`pt-6 sm:text-4xl text-3xl font-medium tracking-tight ${textColorTitle}`}
+            >
               Subsidio Centec -50% cero interés
             </h3>
             <div className="grid gap-y-4 text-base lg:text-lg">
-              <p className="text-gray-300">
-                Dirigido a todos los estudiantes admitidos y estudiantes activos
-                de los programas técnicos, que requieran financiación hasta por
-                el 50% para el pago de la matrícula.
+              <p className={`${textColorSub}`}>
+              {textSubsidies.educationalSubsidiesCharacteristic}
               </p>
               <p>
                 Corto Plazo: Se debe cancelar en 4 cuotas fijas, una vez
@@ -45,31 +54,35 @@ export default function EducationalSubsidies() {
               </p>
               {LIST_CHARACTERISTIC[0].subsidiesCentec.map((item, index) => (
                 <div key={index}>
-                  <p className="text-base lg:text-lg">
-                    - {item.name}
-                  </p>
+                  <p className="text-base lg:text-lg">- {item.name}</p>
                 </div>
               ))}
             </div>
-            <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
+            <h3 className="pt-6 sm:text-4xl text-3xl font-medium tracking-tight">
               Descuento por hermanos
             </h3>
             <div className="grid gap-y-4 text-base lg:text-lg">
-              <p className="lg:text-lg text-base text-gray-300">
+              <p className={`${textColorSub}`}>
                 Es un descuento del 15% que se otorga, al hermano que tenga el
                 valor de la matricula más alta. Cuando son tres hermanos o más,
                 se otorga un descuento del 15% al segundo y del 20% al tercero y
                 de ahí en adelante el 20% para los demás.
               </p>
               <p>
-                Los descuentos se mantienen siempre y cuando los hermanos estén
-                estudiando en la Institución en niveles de programas técnicos y
-                bajo las siguientes condiciones:
+              {textSubsidies.siblingDiscount}
               </p>
               <p>Cuando son dos hermanos:</p>
-              {LIST_CHARACTERISTIC[1].subsidiesBrothers.map((item, index) => (
+              {LIST_CHARACTERISTIC[1].subsidiesBrothersTwo.map((item, index) => (
                 <div key={index}>
-                  <p className="text-base lg:text-lg">
+                  <p className={`text-base lg:text-lg ${textColorSub}`}>
+                    - {item.name}
+                  </p>
+                </div>
+              ))}
+              <p>Cuando son tres hermanos:</p>
+              {LIST_CHARACTERISTIC[2].subsidiesBrothersThree.map((item, index) => (
+                <div key={index}>
+                  <p className={`text-base lg:text-lg ${textColorSub}`}>
                     - {item.name}
                   </p>
                 </div>

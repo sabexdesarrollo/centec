@@ -2,25 +2,22 @@ export default function InstitutionalHorizon() {
   return (
     <section
       id="horizonte-institucional"
-      className="relative -z-50 overflow-hidden py-20 sm:py-32 lg:py-32 bg-primaryGreen"
+      className="relative overflow-hidden py-20 sm:py-32 lg:py-32 bg-white"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl ">
-          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-secondaryDarkBlue">
+        <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl">
+          <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-900">
             Horizonte institucional
           </h2>
-          {/* <p className="mt-2 text-lg text-secondaryDarkBlue/80">
-            
-          </p> */}
         </div>
       </div>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-secondaryDarkBlue/90">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-gray-800">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Misión
             </h3>
-            <p className="mt-6 text-base lg:text-lg text-secondaryDarkBlue/80 pb-8">
+            <p className="py-6 text-base lg:text-lg text-gray-800">
               Nuestra misión es brindar una educación de alta calidad y
               accesible que permita a los adultos alcanzar su título de
               bachiller, ofreciendo un entorno de aprendizaje enriquecedor y
@@ -36,7 +33,7 @@ export default function InstitutionalHorizon() {
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Visión
             </h3>
-            <p className="mt-6 lg:text-lg text-base text-secondaryDarkBlue/80">
+            <p className="mt-6 lg:text-lg text-base text-gray-800">
               Nuestra visión es ser un referente nacional e internacional en la
               educación de adultos, reconocidos por la excelencia académica, la
               innovación pedagógica y el compromiso con la formación continua.
