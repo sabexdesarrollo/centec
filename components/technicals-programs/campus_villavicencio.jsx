@@ -5,7 +5,7 @@ export default function CampusVillavicencio() {
   return (
     <section
       id="sede-villavicencio"
-      className="relative overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue"
+      className="overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue"
     >
       <Campus
         bgLeft="from-secondaryGreen"

@@ -80,7 +80,7 @@ export default function Financing({
               loading="lazy"
               decoding="async"
               data-nimg="1"
-              className="w-[40rem] rounded-3xl rounded-tl-none rounded-br-none shadow-primaryGreen/50 shadow-2xl -z-50"
+              className="w-[40rem] rounded-3xl rounded-tl-none rounded-br-none shadow-primaryGreen/50 shadow-2xl"
               src={images.coin}
             />
           </div>

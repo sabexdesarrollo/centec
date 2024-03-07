@@ -39,7 +39,7 @@ export const Campus = ({
           <button
             key={index}
             onClick={() => openModalHandler(item)}
-            className={`relative text-left mx-auto max-w-2xl lg:col-span-7 lg:max-w-none w-full lg:pt-6 xl:col-span-6 border-2 ${borderColor} shadow-gray-600 bg-gradient-to-r ${bgLeft} ${bgRight} shadow-md p-4 rounded-lg my-4 lg:my-0 hover:opacity-50 hover:transition-opacity cursor-pointer hover:delay-0`}
+            className={`text-left mx-auto max-w-2xl lg:col-span-7 lg:max-w-none w-full lg:pt-6 xl:col-span-6 border-2 ${borderColor} shadow-gray-600 bg-gradient-to-r ${bgLeft} ${bgRight} shadow-md p-4 rounded-lg my-4 lg:my-0 hover:opacity-50 hover:transition-opacity cursor-pointer hover:delay-0`}
           >
             <div className="lg:flex lg:justify-between">
               <p className="lg:hidden bg-secondaryDarkBlue py-0.5 text-xs mb-2 inline-flex rounded-full px-2">

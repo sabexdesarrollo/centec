@@ -32,6 +32,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex justify-between py-8">
         <div className="relative z-10 flex items-center gap-16">
           <div className="hidden lg:flex lg:gap-3">
+          
             {CARD.map((item, index) => (
               <div
                 key={item.title}
