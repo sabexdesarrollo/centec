@@ -32,7 +32,6 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex justify-between py-8">
         <div className="relative z-10 flex items-center gap-16">
           <div className="hidden lg:flex lg:gap-3">
-          
             {CARD.map((item, index) => (
               <div
                 key={item.title}
@@ -53,12 +52,12 @@ export default function Navbar() {
                   <div
                     className={`absolute ${
                       activeSubMenu === index ? "block" : "hidden"
-                    } mt-2 z-10 mx-auto ml-6 space-y-0.5 bg-white shadow-xl rounded-r-md rounded-b-md py-2 w-[13rem]`}
+                    } mt-2 z-10 mx-auto ml-6 space-y-0.5 bg-gradient-to-b from-primaryBlue/20 to-secondaryDarkBlue/50 backdrop-blur-lg bg-opacity-75 shadow-xl hover:delay-0 rounded-r-md rounded-b-md py-4 w-[13rem]`}
                   >
                     {item.submenu.map((subItem) => (
                       <a
                         key={subItem.title}
-                        className="block px-4 py-1 text-sm text-gray-700 hover:bg-secondaryDarkBlue/5"
+                        className="block px-4 py-1 text-sm text-gray-100 hover:scale-105 hover:bg-primaryBlue/35"
                         href={subItem.urlPath}
                       >
                         {subItem.title}
