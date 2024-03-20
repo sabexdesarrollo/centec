@@ -34,16 +34,16 @@ export default function Navbar() {
           <div className="hidden lg:flex lg:gap-3">
             {CARD.map((item, index) => (
               <div
-                key={item.title}
+                key={index}
                 className="relative group"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
               >
                 <Link
-                  className="relative rounded-lg px-3 py-2 text-sm transition-colors delay-150 hover:text-primaryGreen hover:delay-0"
+                  className="rounded-lg px-3 py-2 text-[0.87rem] transition-colors delay-150 hover:text-primaryGreen hover:delay-0"
                   href={item.urlPath}
                 >
-                  <span className="relative inline-flex z-10">
+                  <span className="inline-flex z-10 text-left">
                     {item.title}
                     <ChevronDownIcon className="h-3 w-3 mt-1.5 ml-0.5 font-medium hover:text-primaryGreen hover:delay-0" />
                   </span>

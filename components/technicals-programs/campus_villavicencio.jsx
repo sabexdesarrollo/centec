@@ -15,7 +15,7 @@ export default function CampusVillavicencio() {
         bgDP="bg-secondaryGreen"
         textColorTime="text-secondaryGreen"
         bgTime="bg-white"
-        campusName="Sede Villavicencio (meta)"
+        campusName="Sede Villavicencio (Meta)"
       />
     </section>
   );

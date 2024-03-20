@@ -11,7 +11,7 @@ export default function InstitutionalProspective() {
           <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
             <div className="relative max-w-xl lg:col-span-4 lg:pt-6 xl:col-span-4">
               <h3 className="text-4xl lg:text-5xl font-bold tracking-tight">
-                Prospectiva institucional
+                Prospectiva Institucional
               </h3>
               <p className="py-6 text-lg lg:text-xl text-gray-300">
                 Dentro de su oferta El COLEGIO CENTEC ofrece formación de

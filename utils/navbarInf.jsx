@@ -10,7 +10,7 @@ import {
 
 export const CARD = [
   {
-    title: "Nuestra instutución",
+    title: "Nuestra Instutución",
     icon: BeakerIcon,
     urlPath: "/nuestra-institucion",
     submenu: [
@@ -52,7 +52,7 @@ export const CARD = [
     ],
   },
   {
-    title: "Admisiones y financiación",
+    title: "Admisiones y Financiación",
     icon: UsersIcon,
     urlPath: "/admisiones-y-financiacion",
     submenu: [
@@ -75,7 +75,7 @@ export const CARD = [
     ],
   },
   {
-    title: "Programas técnicos laborales",
+    title: "Programas Técnicos Laborales",
     icon: BookOpenIcon,
     urlPath: "/programas-tecnicos-laborales",
     submenu: [
@@ -93,7 +93,7 @@ export const CARD = [
       },
     ],
   },
-  { title: "Colegio centec", urlPath: "/colegio-centec", submenu: [
+  { title: "Colegio CENTEC", urlPath: "/colegio-centec", submenu: [
     { 
       title: "Prospectiva institucional",
       urlPath: "/colegio-centec#prospectiva-institucional"
@@ -129,7 +129,7 @@ export const CARD = [
   ] },
 
   {
-    title: "Educación continua",
+    title: "Educación Continua",
     icon: BeakerIcon,
     urlPath: "/educacion-continua",
     submenu: [
@@ -148,25 +148,25 @@ export const CARD = [
     ],
   },
   {
-    title: "Innovación y emprendimiento",
+    title: "Innovación y Emprendimiento",
     urlPath: "/inoovacion-y-emprendimiento",
   },
 ];
 
 export const NavigationMobil = [
-  { title: "Nuestra instutución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
+  { title: "Nuestra Instutución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
   {
-    title: "Adminisiones y financiación",
+    title: "Adminisiones y Financiación",
     urlPath: "/admisiones-y-financiacion",
     icon: CurrencyDollarIcon,
   },
   {
-    title: "Programas técnicos laborales",
+    title: "Programas Técnicos Laborales",
     urlPath: "/programas-tecnicos-laborales",
     icon: QueueListIcon,
   },
-  { title: "Colegio centec", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
+  { title: "Colegio CENTEC", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
   { title: "Bienestar", urlPath: "/bienestar", icon: UsersIcon },
-  { title: "Educación continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
-  { title: "Innovación y emprendimiento", urlPath: "/inoovacion-y-emprendimiento", icon: BeakerIcon },
+  { title: "Educación Continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
+  { title: "Innovación y Emprendimiento", urlPath: "/inoovacion-y-emprendimiento", icon: BeakerIcon },
 ];

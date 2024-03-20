@@ -34,13 +34,13 @@ export default function EducationalSubsidies({
               <h2
                 className={`text-4xl lg:text-5xl font-bold tracking-tight ${textColorTitle}`}
               >
-                Subsidios educativos
+                Subsidios Educativos
               </h2>
             </div>
             <h3
               className={`pt-6 sm:text-4xl text-3xl font-medium tracking-tight ${textColorTitle}`}
             >
-              Subsidio Centec -50% cero interés
+              Subsidio CENTEC -50% cero interés
             </h3>
             <div className="grid gap-y-4 text-base lg:text-lg">
               <p className={`${textColorSub}`}>

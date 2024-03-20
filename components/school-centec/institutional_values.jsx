@@ -12,7 +12,7 @@ export default function InstitutionalValues() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl ">
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
-            Valores institucionales
+            Valores Institucionales
           </h2>
           <p className="py-6 text-lg lg:text-xl text-gray-300">
             Este aspecto surge de la convergencia de los valores institucionales

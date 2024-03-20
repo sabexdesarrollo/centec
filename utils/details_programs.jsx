@@ -1,6 +1,6 @@
 export const VILLAVICENCIO_PROGRAMS = [
   {
-    title: "Axiliar administrativo",
+    title: "Axiliar Administrativo",
     description:
       "El Programa Técnico Laboral por Competencias en Auxiliar Administrativo combina aspectos teóricos y prácticos...",
     titleProgram: "Técnico Laboral en Auxiliar Administrativo",
@@ -25,14 +25,12 @@ export const VILLAVICENCIO_PROGRAMS = [
         subject: [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
-          " ",
           "Administración I",
           "Economía",
           "Contabilidad I",
           "Cultura física",
           "Ética y transformación del entorno",
           "Sistemas I",
-          " ",
         ],
       },
       {
@@ -44,8 +42,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Administración II",
           "Mercados y técnicas de ventas",
           "Contabilidad II",
-          " ",
-          " ",
           "Sistemas II ",
           "Ingles I",
         ],
@@ -59,7 +55,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Legislación laboral",
           "Comercio exterior",
           "Auditoria",
-          "",
           "Cultura ambiental",
           "Contabilidad sistematizada",
           "Ingles II",
@@ -68,13 +63,11 @@ export const VILLAVICENCIO_PROGRAMS = [
       {
         semestrer: "IV Semestre",
         subject: [
-          " ",
           "Costos y presupuestos",
           "Análisis financiero",
           "Gestión y creacion empresarial",
           "Proyectos",
           "Legislación tributaria",
-          "",
           "Salud ocupacional",
           "Comercio  electrónico",
           "Ingles III",
@@ -84,7 +77,7 @@ export const VILLAVICENCIO_PROGRAMS = [
   },
   {
     titleProgram: "Técnico Laboral en Auxiliar Contable y Financiero",
-    title: "Auxiliar contable y financiero",
+    title: "Auxiliar Contable y Financiero",
     description:
       "El programa de Técnico Laboral por Competencias en Auxiliar Contable y Financiero tiene como objetivo principal la formación de...",
     description:
@@ -110,12 +103,9 @@ export const VILLAVICENCIO_PROGRAMS = [
         subject: [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
-          " ",
           "Fundamentos administrativos",
           "Economía",
           "Contabilidad I",
-          " ",
-          " ",
           "Cultura física",
           "Ética y transformación del entorno",
           "Informática aplicada",
@@ -124,7 +114,6 @@ export const VILLAVICENCIO_PROGRAMS = [
       {
         semestrer: "II Semestre",
         subject: [
-          " ",
           "Matemática financiera ",
           "Finanzas corporativas",
           "Gestión documental",
@@ -147,9 +136,7 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Legislación tributaria",
           "Proyectos",
           "Auditoria",
-          " ",
           "Salud ocupacional",
-          " ",
         ],
       },
     ],
@@ -183,8 +170,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Atención y servicio al cliente",
           "Fundamentos administrativos",
           "Fundamentos de los recursos humanos",
-          " ",
-          " ",
           "Cultura física",
           "Ética y transformación del entorno",
           "Informática aplicada",
@@ -200,9 +185,7 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Sociología del trabajo",
           "Gestión y creación empresarial",
           "Salud ocupacional, higiene y seguridad industrial",
-          " ",
           "Cultura ambiental",
-          " ",
         ],
       },
       {
@@ -215,8 +198,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Psicología y comportamiento organizacional",
           "Proyectos",
           "Legislación en salud ocupacional",
-          " ",
-          " ",
           "Ingles aplicado",
         ],
       },
@@ -249,10 +230,7 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Técnicas de Estudio",
           "Razonamiento lógico matemático",
           "Administración y técnicas educativas",
-          "",
-          "",
           "Cultura física",
-          " ",
           "Informática aplicada",
           "Fundamentos de pedagogía",
           "Fundamentos de psicología",
@@ -264,12 +242,9 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Metodología de la investigación",
           "Estadistica para educadores",
           "Didáctica de la enseñanza",
-          "",
           "Fundamentación artistica",
           "Fundamentos de lenguaje",
           "Salud nutricional en la infancia",
-          "",
-          "",
           "Modelos pedagógicos",
           "Psicología del aprendizaje",
         ],
@@ -277,8 +252,6 @@ export const VILLAVICENCIO_PROGRAMS = [
       {
         semestrer: "III Semestre",
         subject: [
-          "",
-          "",
           "Práctica I",
           "Taller de material didactico",
           "Juego, lúdica y educación",
@@ -293,15 +266,12 @@ export const VILLAVICENCIO_PROGRAMS = [
       {
         semestrer: "IV Semestre",
         subject: [
-          "",
           "Gestión y creación empresarial",
           "Práctica II",
           "Normatividad y política educativa",
-          "",
           "Sociología de la comunicaón",
           "Salud ocupacional",
           "Ingles II",
-          "",
           "Proyecto eduacativo institucional",
           "Psicometría",
         ],
@@ -338,15 +308,12 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Materiales y tecnología textil",
           "Dibujo y teoría del color",
           "Fundamentos administrativos",
-          "",
-          "",
           "Ética y tranformación del entorno",
         ],
       },
       {
         semestrer: "II Semestre",
         subject: [
-          "",
           "Geometría, física, y metrología",
           "Corte y confección",
           "Maquinaria e insumos",
@@ -355,14 +322,12 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Publicidad y marketing de moda",
           "Seguridad industrial y salud ocupacional",
           "Informatica aplicada",
-          "",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
           "Ingles aplicado",
-          "",
           "Taller de confección",
           "Proyecto de diseño y costura",
           "Producción industrial de colecciones",
@@ -407,7 +372,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Bioseguridad",
           "Limpieza y masaje facial",
           "Ética y transformación del entorno",
-          "",
         ],
       },
       {
@@ -428,7 +392,7 @@ export const VILLAVICENCIO_PROGRAMS = [
     ],
   },
   {
-    title: "Cocinero principal",
+    title: "Cocinero Principal",
     description:
       "El Programa Técnico Laboral por Competencias en Cocinero Principal se posiciona como una respuesta precisa a las demandas del sector productivo...",
     titleProgram: "Técnico Laboral en Cocinero Principal",
@@ -453,12 +417,9 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
           "Cocina básica",
-          "",
           "Nutrición",
           "Manipulación de alimentos y BPM",
-          "",
           "Fundamentos administrativos",
-          "",
           "Informática aplicada",
           "Ética y transformación del entorno",
         ],
@@ -467,7 +428,6 @@ export const VILLAVICENCIO_PROGRAMS = [
         semestrer: "II Semestre",
         subject: [
           "Ingles aplicado",
-          "",
           "Cocina avanzada",
           "Cocina nacional",
           "Preparación de bebidas",
@@ -475,18 +435,13 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Panadería",
           "Atención y servicio al cliente",
           "Seguridad industrial y salud ocupacional",
-          "",
-          "",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
-          "",
-          "",
           "Equipos y montajes de cocinas",
           "Cocina internacional",
-          "",
           "Manejo de bodejas de alimentos y equipos",
           "Pastelería y reposteria",
           "Organización de eventos",
@@ -498,7 +453,7 @@ export const VILLAVICENCIO_PROGRAMS = [
     ],
   },
   {
-    title: "Oficial de construcción",
+    title: "Oficial de Construcción",
     description:
       "El Programa Técnico Laboral por Competencias en Oficial de Construcción de CENTEC tiene como objetivo formar técnicos laborales con...",
     titleProgram: "Técnico Laboral en Oficial de Construcción",
@@ -528,16 +483,12 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Dibujo técnico",
           "Consturcción I",
           "Materiales y herramientas de construcción I",
-          "",
           "Informática aplicada",
-          "",
-          "",
         ],
       },
       {
         semestrer: "II Semestre",
         subject: [
-          "",
           "Geometría",
           "Cableado eléctrico",
           "Normatividad del sector de la construcción",
@@ -546,20 +497,15 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Materiales y herramientas de construcción II",
           "Fontanería",
           "Seguridad y salud en el trabajo",
-          "",
-          "",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
           "Cultura física",
-          "",
-          "",
           "Administración, costos y presupuestos de obra",
           "Diseño asistido por computador 2D y 3D",
           "Topografía",
-          "",
           "Gestión ambiental",
           "Gestión y creación empresarial",
           "Ética y transformación del entorno",
@@ -569,7 +515,7 @@ export const VILLAVICENCIO_PROGRAMS = [
     ],
   },
   {
-    title: "Perforador de pozos de petróleo y gas",
+    title: "Perforador de Pozos de Petróleo y Gas",
     description:
       "El Programa Técnico Laboral por Competencias en Perforador Pozos de Petróleo y Gas de CENTEC está orientado a entender los...",
     titleProgram: "Técnico Laboral en Perforador Pozos de Petróleo y Gas",
@@ -596,12 +542,9 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Matemáticas y geometría",
           "Introducción a la exploración y perforación de petróleo y gas",
           "Fundamentos administrativos",
-          "",
           "Física",
-          "",
           "Cultura física",
           "Informática aplicada",
-          "",
         ],
       },
       {
@@ -610,27 +553,21 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Metodología de la investigación",
           "Estadística",
           "Yacimiento de hidrocarburos",
-          "",
           "Química general",
           "Termodinámica",
           "Geología",
-          "",
-          "",
           "Ingles técnico I",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
-          "",
           "Algebra lineal",
           "Perforación de hidrocarburos",
           "Transporte de hidrocarburos",
           "Química orgánica",
           "Mecánica de los sólidos y los fluidos",
           "Gasotecnia",
-          "",
-          "",
           "Ingles  técnico II",
         ],
       },
@@ -642,17 +579,14 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Producción de hidrocarburos",
           "Legislación de hidrocarburos",
           "Ecología y contaminación",
-          "",
-          "",
           "Ética y transformación del entorno",
           "Higiene y seguridad industrial",
-          "",
         ],
       },
     ],
   },
   {
-    title: "Mecánico de motores diésel",
+    title: "Mecánico de Motores Diésel",
     description:
       "El Programa Técnico Laboral por Competencias en Mecánico de Motores Diésel de CENTEC está orientado a capacitar técnicos...",
     titleProgram: "Técnico Laboral en Mecánico de Motores Diésel",
@@ -678,11 +612,9 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Técnicas de Estudio",
           "Matemáticas para la productividad",
           "Física y metrología",
-          "",
           "Introducción a los motores  diésel y gasolina",
           "Mecánica general",
           "Herramientas, instrumentación y control",
-          "",
           "Informática aplicada",
         ],
       },
@@ -690,22 +622,18 @@ export const VILLAVICENCIO_PROGRAMS = [
         semestrer: "II Semestre",
         subject: [
           "Ingles aplicado",
-          "",
           "Hidráulica básica aplicada en la mecánica diésel",
           "Fundamentos administrativos",
           "Electricidad y electrónica aplicada en la mecánica  diésel",
           "Diagnóstic de motores  diésel",
           "Lubricación y refrigeración en el motor diésel",
           "Seguridad y salud en el trabajo",
-          "",
         ],
       },
       {
         semestrer: "III Semestre",
         subject: [
           "Cultura física",
-          "",
-          "",
           "Gestión y creación empresarial",
           "Sistema eléctrico del motor",
           "Mantenimiento y reparación de motores diésel",
@@ -717,7 +645,7 @@ export const VILLAVICENCIO_PROGRAMS = [
     ],
   },
   {
-    title: "Electricista industrial",
+    title: "Electricista Industrial",
     description:
       "El Programa Técnico Laboral por Competencias en Operador de Equipo Pesado de CENTEC tiene como objetivo fundamental fomentar en los...",
     titleProgram: "Técnico Laboral en Electricista Industrial",
@@ -743,20 +671,16 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Técnicas de Estudio",
           "Matemáticas aplicadas",
           "Física y metrología",
-          "",
           "Circuitos  eléctricos I",
           "Electrónica I",
           "Herramientas, instrumentación y control",
           "Seguridad industrial y salud ocupacional",
           "Informática aplicada",
-          "",
         ],
       },
       {
         semestrer: "II Semestre",
         subject: [
-          "",
-          "",
           "Generación, transformación, transmisión y distribuición",
           "Fundamentos administrativos",
           "Circuitos  eléctricos II",
@@ -771,8 +695,6 @@ export const VILLAVICENCIO_PROGRAMS = [
         semestrer: "III Semestre",
         subject: [
           "Ingles aplicado",
-          "",
-          "",
           "Gestión y creación empresarial",
           "Taller de electricidad y electrónica",
           "Control y automatismo",
@@ -785,7 +707,7 @@ export const VILLAVICENCIO_PROGRAMS = [
     ],
   },
   {
-    title: "Operador de equipo pesado",
+    title: "Operador de Equipo Pesado",
     description:
       "El Programa Técnico Laboral por Competencias en Operador de Equipo Pesado de CENTEC tiene como objetivo fundamental fomentar en los...",
     titleProgram: "Técnico Laboral en Operador de Equipo Pesado",
@@ -816,7 +738,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Herramientas, instrumentación y control",
           "Seguridad industrial y salud ocupacional",
           "Informática aplicada",
-          "",
         ],
       },
       {
@@ -829,8 +750,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Mecánica diésel",
           "Hidráulica para maquinaria pesada",
           "Seguridad vial y manejo defensivo",
-          "",
-          "",
         ],
       },
       {
@@ -839,7 +758,6 @@ export const VILLAVICENCIO_PROGRAMS = [
           "Cultura física",
           "Gestión y creación empresarial",
           "Motoniveladora y rodillo",
-          "",
           "Mantenimiento de maquinaria pesada",
           "Retroexcavadora y minicargador",
           "Trabajo en alturas",
@@ -881,10 +799,8 @@ export const ACACIAS_PROGRAMS = [
           "Fundamentos administrativos",
           "Elementos de la economía",
           "Desarrollo sostenible",
-          "",
           "Cultura física",
           "Sistemas aplicados",
-          "",
         ],
       },
       {
@@ -897,8 +813,6 @@ export const ACACIAS_PROGRAMS = [
           "Economía ambiental",
           "Ordenamiento territorial, geografía y recursos naturales",
           "Valoración de recursos naturales y manejo de residuos",
-          "",
-          "",
           "Ingles I",
         ],
       },
@@ -906,10 +820,8 @@ export const ACACIAS_PROGRAMS = [
         semestrer: "III Semestre",
         subject: [
           "Formulación y evaluación de proyectos",
-          "",
           "Política ambiental",
           "Gestión y creación empresarial",
-          "",
           "Legislación y derecho ambiental",
           "Indicaciones de gestión y medición ambiental",
           "Salud ocupacional",
@@ -920,7 +832,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Asistente social y comunitario",
+    title: "Asistente Social y Comunitario",
     description:
       "El Programa Técnico Laboral por Competencias en Asistente Social y Comunitaria se orienta hacia la formación integral de estudiantes...",
     titleProgram: "Técnico Laboral en Asistente Social y Comunitario",
@@ -949,10 +861,6 @@ export const ACACIAS_PROGRAMS = [
           "Fundamentos de pedagogía",
           "Fundamentos de psicología",
           "Fundamentos de sociología",
-          "",
-          "",
-          "",
-          "",
           "Informática aplicada",
         ],
       },
@@ -961,14 +869,11 @@ export const ACACIAS_PROGRAMS = [
         subject: [
           "Técnicas de comunicación",
           "Bio - Estadistica",
-          "",
-          "",
           "Psicología evolutiva",
           "Sociología rural y urbana",
           "Derecho constitucional y comercial",
           "Trabajo social I",
           "Primeros auxilios",
-          "",
           "Ética y transformación del entorno",
         ],
       },
@@ -976,9 +881,6 @@ export const ACACIAS_PROGRAMS = [
         semestrer: "III Semestre",
         subject: [
           "Sociología de la comunicación",
-          "",
-          "",
-          "",
           "Psicología social y familiar",
           "Atención y orientación al usuario",
           "Políticas públicas y sociales",
@@ -992,14 +894,11 @@ export const ACACIAS_PROGRAMS = [
         semestrer: "IV Semestre",
         subject: [
           "Metodología de la investigación",
-          "",
           "Gestión y creación empresarial",
           "Antropología general",
-          "",
           "Organización y participación comunitaria",
           "Derecho administrativo a la familia",
           "Elaboración y evaluación de proyectos sociales y culturales",
-          "",
           "Ingles II",
           "Cultura física",
         ],
@@ -1007,7 +906,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Investigación criminalística y judicial",
+    title: "Investigación Criminalística y Judicial",
     description:
       "El Programa Técnico Laboral por Competencias en Investigación Criminalística y Judicial de CENTEC, orienta hacia la formación...",
     titleProgram: "Técnico Laboral en Investigación Criminalística y Judicial",
@@ -1035,10 +934,7 @@ export const ACACIAS_PROGRAMS = [
           "Introducción a la criminalística",
           "Biología y anatomía forense",
           "Principios de derecho y derecho constitucional",
-          "",
-          "",
           "Ingles aplicado",
-          "",
           "Cultura física",
           "Informática aplicada",
         ],
@@ -1051,11 +947,8 @@ export const ACACIAS_PROGRAMS = [
           "Procedimientos jurídico",
           "Medicina forense",
           "Gráfologia y documentación",
-          "",
           "Balística",
           "Cultura ambiental",
-          "",
-          "",
         ],
       },
       {
@@ -1063,12 +956,9 @@ export const ACACIAS_PROGRAMS = [
         subject: [
           "Sociología criminal y delito",
           "Gestión y creación empresarial",
-          "",
           "Toxicología forense",
           "Derecho policivo y probatorio",
-          "",
           "Fotografía judicial",
-          "",
           "Dactiloscopia",
           "Seguridad y salud en el trabajo",
           "Ética y transformacion del entorno",
@@ -1077,7 +967,128 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Preparación fisica y entrenamiento deportivo",
+    title: "Preparación Fisica y Entrenamiento Deportivo",
+    description:
+      "",
+    titleProgram: "",
+    descriptionProgram:
+      "",
+    recordsProgram:
+      "",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:
+      "",
+    graduateProfile:
+      "",
+    cetification:
+      "",
+    occupationalProfile:
+      "",
+    loginRequirements:
+      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la productividad",
+          "Introducción a la criminalística",
+          "Biología y anatomía forense",
+          "Principios de derecho y derecho constitucional",
+          "Ingles aplicado",
+          "Cultura física",
+          "Informática aplicada",
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Metodología de la investigación criminalística",
+          "Fundamentos administrativos",
+          "Procedimientos jurídico",
+          "Medicina forense",
+          "Gráfologia y documentación",
+          "Balística",
+          "Cultura ambiental",
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Sociología criminal y delito",
+          "Gestión y creación empresarial",
+          "Toxicología forense",
+          "Derecho policivo y probatorio",
+          "Fotografía judicial",
+          "Dactiloscopia",
+          "Seguridad y salud en el trabajo",
+          "Ética y transformacion del entorno",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Asistencia Administrativa",
+    description: "",
+    titleProgram: "",
+    descriptionProgram:
+      "",
+    recordsProgram:
+      "",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:
+      "",
+    graduateProfile:
+      "",
+    cetification:
+      "",
+    occupationalProfile:
+      "",
+    loginRequirements:
+      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la productividad",
+          "Introducción a la criminalística",
+          "Biología y anatomía forense",
+          "Principios de derecho y derecho constitucional",
+          "Ingles aplicado",
+          "Cultura física",
+          "Informática aplicada",
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Metodología de la investigación criminalística",
+          "Fundamentos administrativos",
+          "Procedimientos jurídico",
+          "Medicina forense",
+          "Gráfologia y documentación",
+          "Balística",
+          "Cultura ambiental",
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Sociología criminal y delito",
+          "Gestión y creación empresarial",
+          "Toxicología forense",
+          "Derecho policivo y probatorio",
+          "Fotografía judicial",
+          "Dactiloscopia",
+          "Seguridad y salud en el trabajo",
+          "Ética y transformacion del entorno",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Operaciones Comerciales en Retail",
     description:
       "",
     titleProgram: "",
@@ -1147,7 +1158,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Asistencia administrativa",
+    title: "Formación y Atención Integral a la Primera Infancia",
     description:
       "",
     titleProgram: "",
@@ -1217,7 +1228,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Operaciones comerciales en retail",
+    title: "Producción Agropecuaria",
     description:
       "",
     titleProgram: "",
@@ -1287,7 +1298,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Formación y atención integral a la primera infancia",
+    title: "Producción de Hidrocarburos",
     description:
       "",
     titleProgram: "",
@@ -1357,7 +1368,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Producción agropecuaria",
+    title: "Salud y Seguridad en el Trabajo",
     description:
       "",
     titleProgram: "",
@@ -1427,147 +1438,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Producción de hidrocarburos",
-    description:
-      "",
-    titleProgram: "",
-    descriptionProgram:
-      "",
-    recordsProgram:
-      "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram:
-      "",
-    graduateProfile:
-      "",
-    cetification:
-      "",
-    occupationalProfile:
-      "",
-    loginRequirements:
-      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
-    studyPlan: [
-      {
-        semestrer: "I Semestre",
-        subject: [
-          "Técnicas de Estudio",
-          "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
-        ],
-      },
-      {
-        semestrer: "II Semestre",
-        subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
-        ],
-      },
-      {
-        semestrer: "III Semestre",
-        subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Salud y seguridad en el trabajo",
-    description:
-      "",
-    titleProgram: "",
-    descriptionProgram:
-      "",
-    recordsProgram:
-      "",
-    timeProgram: "1.200 horas / 3 semestres",
-    objectiveProgram:
-      "",
-    graduateProfile:
-      "",
-    cetification:
-      "",
-    occupationalProfile:
-      "",
-    loginRequirements:
-      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado.<br/> Documentación Requerida:<br/> - Copia del documento de identificación al 150%.<br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público.<br/> - Formato de inscripción diligenciado.",
-    studyPlan: [
-      {
-        semestrer: "I Semestre",
-        subject: [
-          "Técnicas de Estudio",
-          "Matemáticas para la productividad",
-          "Introducción a la criminalística",
-          "Biología y anatomía forense",
-          "Principios de derecho y derecho constitucional",
-          "",
-          "",
-          "Ingles aplicado",
-          "",
-          "Cultura física",
-          "Informática aplicada",
-        ],
-      },
-      {
-        semestrer: "II Semestre",
-        subject: [
-          "Metodología de la investigación criminalística",
-          "Fundamentos administrativos",
-          "Procedimientos jurídico",
-          "Medicina forense",
-          "Gráfologia y documentación",
-          "",
-          "Balística",
-          "Cultura ambiental",
-          "",
-          "",
-        ],
-      },
-      {
-        semestrer: "III Semestre",
-        subject: [
-          "Sociología criminal y delito",
-          "Gestión y creación empresarial",
-          "",
-          "Toxicología forense",
-          "Derecho policivo y probatorio",
-          "",
-          "Fotografía judicial",
-          "",
-          "Dactiloscopia",
-          "Seguridad y salud en el trabajo",
-          "Ética y transformacion del entorno",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Servicios hoteleros y turìsticos",
+    title: "Servicios Hoteleros y Turísticos",
     description:
       "",
     titleProgram: "",
@@ -1707,7 +1578,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Sistemas informáticos",
+    title: "Sistemas Informáticos",
     description:
       "",
     titleProgram: "",
@@ -1777,7 +1648,7 @@ export const ACACIAS_PROGRAMS = [
     ],
   },
   {
-    title: "Tránsito, transporte y seguridad vial",
+    title: "Tránsito, Transporte y Seguridad Vial",
     description:
       "",
     titleProgram: "",
@@ -1850,7 +1721,7 @@ export const ACACIAS_PROGRAMS = [
 
 export const GRANADA_PROGRAMS = [
   {
-    title: "Saneamiento ambiental",
+    title: "Saneamiento Ambiental",
     description:
       "",
     titleProgram: "",
@@ -1920,7 +1791,7 @@ export const GRANADA_PROGRAMS = [
     ],
   },
   {
-    title: "Asistente social y comunitario",
+    title: "Asistente Social y Comunitario",
     description:
       "",
     titleProgram: "",
@@ -1990,7 +1861,7 @@ export const GRANADA_PROGRAMS = [
     ],
   },
   {
-    title: "Investigaciòn criminalistica y judicial",
+    title: "Investigación Criminalistica y Judicial",
     description:
       "",
     titleProgram: "",

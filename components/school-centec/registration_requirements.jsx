@@ -26,7 +26,7 @@ export default function RegistrationRequirements() {
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
               <h2 className="text-4xl pb-6 lg:text-5xl font-bold tracking-tight">
-                Requisitos de matrícula
+                Requisitos de Matrícula
               </h2>
             </div>
             {LIST_REGISTRATION_REQUIREMENTS.map((item, index) => (

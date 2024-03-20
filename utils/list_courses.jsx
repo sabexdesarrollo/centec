@@ -1,6 +1,6 @@
 export const VILLAVICENCIO = [
     {
-        name: "Auxiliar administrativo",
+        name: "Auxiliar Administrativo",
         time: "1.600 horas / 4 semestres",
         description: "El Programa Técnico Laboral por Competencias en Auxiliar Administrativo combina aspectos teóricos y prácticos..."
     },

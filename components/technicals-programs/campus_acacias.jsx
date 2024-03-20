@@ -15,7 +15,7 @@ export default function CampusAcacias() {
         bgDP="bg-secondaryDarkBlue"
         textColorTime="text-secondaryDarkBlue"
         bgTime="bg-gray-300"
-        campusName="Sede Acacias (meta)"
+        campusName="Sede Acacias (Meta)"
       />
     </section>
   );

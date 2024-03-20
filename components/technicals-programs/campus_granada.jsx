@@ -15,7 +15,7 @@ export default function CampusGranada() {
         bgDP="bg-primaryBlue"
         textColorTime="text-primaryBlue"
         bgTime="bg-white"
-        campusName="Sede Granada (meta)"
+        campusName="Sede Granada (Meta)"
       />
     </section>
   );

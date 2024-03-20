@@ -18,7 +18,7 @@ export default function InstitutionalPrinciples({
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-[65rem] sm:text-center">
           <h2 className={`text-4xl lg:text-5xl font-bold tracking-tight ${textColorTitle}`}>
-            Principios institucionales
+            Principios Institucionales
           </h2>
           <p className={`py-6 text-lg lg:text-xl text-justify ${textGeneralDesp}`}>
             La función administrativa de la Institución se desarrolla conforme
