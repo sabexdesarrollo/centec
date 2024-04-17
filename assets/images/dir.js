@@ -7,6 +7,7 @@ import subsidies from "@/assets/images/subsidies.jpg"
 import smile_persons from "@/assets/images/multiple_persons_smile.png"
 import women from "@/assets/images/one_person_female.png"
 import smile_persons_two from "@/assets/images/smile_persons_two.jpg"
+import one_person_masculine from "@/assets/images/one_person_masculine.png"
 
 const images = {
   lgtp_letters,
@@ -17,7 +18,8 @@ const images = {
   subsidies,
   smile_persons,
   women,
-  smile_persons_two
+  smile_persons_two,
+  one_person_masculine
   
 };
 
