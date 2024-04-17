@@ -7,10 +7,12 @@ import InstitutionalHorizon from "@/components/school-centec/institutional_horiz
 import InstitutionalProspective from "@/components/school-centec/institutional_prospective";
 import InstitutionalValues from "@/components/school-centec/institutional_values";
 import RegistrationRequirements from "@/components/school-centec/registration_requirements";
+import HeroSchool from "@/components/school-centec/hero_school";
 
 export default function ColegioCentenc() {
   return (
     <>
+      <HeroSchool />
       <InstitutionalProspective />
       <InstitutionalHorizon />
       <InstitutionalPrinciples

@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { DocumentTextIcon } from "@heroicons/react/24/outline";
+
 export default function AcademicManagement() {
   return (
     <section
@@ -33,10 +36,34 @@ export default function AcademicManagement() {
             <h3 className="sm:text-4xl text-3xl font-medium tracking-tight">
               Solicitud de certificados
             </h3>
-            <p className="mt-6 lg:text-lg text-base text-gray-400">
-              Texto faltante...
+            <p className="mt-6 lg:text-lg text-base">
+              Enviar solicitud al correo:{" "}
+              <strong>colegio@educentec.edu.co</strong>
+            </p>
+            <p>
+              Canal de atención virtual vía WhatsApp:{" "}
+              <Link
+                className="bg-primaryGreen rounded-md px-1 font-bold"
+                href="https://api.whatsapp.com/send?phone=573105949059"
+                target="_blank"
+              >
+                +57 310-5949-059
+              </Link>
             </p>
           </div>
+        </div>
+        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl mt-4 lg:mt-0">
+          <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-gray-200">
+            Manual de convivencia
+            <Link target="_blank"
+              className="bg-secondaryDarkBlue rounded-md ml-2 py-1 text-lg"
+              href="https://drive.google.com/file/d/18fyGB9x1NXTbuJpYEgLMjSDNu6g3_osY/view?usp=sharing"
+            >
+              {" "}
+              ver aqui {"-->"}
+              <DocumentTextIcon className="inline-flex h-6 w-6" />
+            </Link>
+          </h2>
         </div>
       </div>
     </section>
