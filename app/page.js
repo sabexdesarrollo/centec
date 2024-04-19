@@ -1,5 +1,6 @@
 import Hero from "@/components/home/hero";
 import HeroHomeVideo from "@/components/home/hero_video";
+import Newsletter from "@/components/home/newsletter";
 import OpenEnrollment from "@/components/home/open_enrollment";
 import School from "@/components/home/school";
 import Welcome from "@/components/home/welcome";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <School />
       <OpenEnrollment/>
+      <Newsletter/>
     </>
   );
 }

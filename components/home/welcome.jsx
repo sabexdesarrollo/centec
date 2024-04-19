@@ -30,7 +30,7 @@ export default function Welcome() {
           </div>
         </div>
         <div className="mx-auto max-w-7xl px-4 pt-4 sm:pt-10 sm:px-6 lg:px-8">
-          <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
+          <div className="lg:grid lg:grid-cols-12 lg:gap-x-8">
             <div className="relative mt-10 sm:mt-20 lg:col-span-5 lg:row-span-2 lg:mt-0 xl:col-span-6">
               <Image
                 alt=""
