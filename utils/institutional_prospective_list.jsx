@@ -832,7 +832,7 @@ export const VILLAVICENCIO_PROGRAMS = [
   {
     title: "Técnico Laboral por Competencias en Auxiliar en Información Turística",
     description:
-      "El programa Técnico Laboral por Competencias en Auxiliar en Información Turística forma técnicos capaces...,
+      "El programa Técnico Laboral por Competencias en Auxiliar en Información Turística forma técnicos capaces...",
     titleProgram: "Técnico Laboral por Competencias en Auxiliar en Información Turística",
     descriptionProgram:
       "El programa Técnico Laboral por Competencias en Auxiliar en Información Turística forma técnicos capaces de brindar atención y orientación de calidad a turistas, gestionar información sobre destinos, y apoyar en la organización de actividades turísticas. Con un enfoque en el patrimonio cultural, la sostenibilidad y las tendencias del sector, prepara a los egresados para destacarse en un entorno competitivo y globalizado.",
