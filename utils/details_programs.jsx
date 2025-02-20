@@ -767,6 +767,310 @@ export const VILLAVICENCIO_PROGRAMS = [
       },
     ],
   },
+  {
+    title: "Técnico Laboral por Competencias en ELECTROMECÁNICO  ",
+    description:
+      "El programa Técnico Laboral por Competencias en Electromecánica de CENTEC está diseñado para formar Tecnicos...",
+    titleProgram: "Técnico Laboral por Competencias en ELECTROMECÁNICO  ",
+    descriptionProgram:
+      "El programa Técnico Laboral por Competencias en Electromecánica de CENTEC está diseñado para formar Técnicos capacitados en la operación, montaje, mantenimiento y diagnóstico de sistemas electromecánicos, combinando conocimientos en mecánica, electricidad, electrónica, neumática e hidráulica.",
+    recordsProgram:
+      "Resolución No. 2417 de 2024 de la Secretaria de Educación del Municipio de Villavicencio.",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:
+      "1. Formar técnicos capaces de operar, mantener y montar sistemas electromecánicos, utilizando herramientas y equipos modernos conforme a las demandas del sector productivo <br/> 2.	Instruir en la aplicación de normativas de seguridad, salud ocupacional y prácticas ambientales sostenibles en los procesos industriales.<br/> 3.	Capacitar a los estudiantes para identificar y solucionar fallas en sistemas electromecánicos de manera eficiente y segura. <br/> 4.	Fortalecer competencias en trabajo en equipo, liderazgo, cultura empresarial y ética para desempeñarse exitosamente en entornos laborales. <br/> 5.	Preparar a los estudiantes para ocupar roles como técnicos en mantenimiento, operadores de maquinaria y supervisores industriales, con un enfoque en el desarrollo práctico y la innovación.",
+    graduateProfile:
+      "El egresado del programa Técnico Laboral por Competencias en Electromecánica estará capacitado para operar, mantener y montar sistemas electromecánicos, aplicando conocimientos en mecánica, electricidad, electrónica, neumática e hidráulica. Podrá desempeñarse en el sector industrial, con habilidades en seguridad laboral, sostenibilidad y resolución de problemas técnicos, destacándose por su compromiso ético y responsabilidad en su labor.",
+    cetification: "Técnico Laboral por Competencias en ELECTROMECÁNICO.",
+    occupationalProfile:
+      "El Técnico en Electromecánico se puede desempeñarse en los siguientes cargos y/o actividades productivas, entre otros: Operador en los procesos de mecanizado,	Auxiliar en el mantenimiento de dispositivos electromecánicos. Auxiliar en el montaje de dispositivos electromecánicos, Auxiliar de mantenimiento eléctrico, Auxiliar en mantenimiento mecánico, Auxiliar en mantenimiento de centros de transformación y generación.",
+    loginRequirements:
+      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado. <br/> Documentación Requerida: <br/> - Copia del documento de identificación al 150%. <br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público. <br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la productividad",
+          "Mecánica General",
+          "Fisica y Metrología",
+          "Herramientas, Instrumentación y Control",
+          "Informática Aplicada",
+          "Cultura Física",
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Ingles Aplicado",
+          "Fundamentos Administrativos",
+          "Maquinas Eléctricas",
+          "Neumática e Hidraulíca",
+          "Maquinas Mecanicas",
+          "Cultura Ambiental",
+          "Seguridad Industrial y Salud Ocupacional",
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Automatización y Control Industrial",
+          "Gestión y Creación Empresarial",
+          "Operación y Montaje Electromecánico",
+          "Electricidad y Electrónica Aplicada",
+          "Matenimiento Industrial",
+          "Ética y Transformación Del Entorno",
+          "Proyecto Electromecánico",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Técnico Laboral por Competencias en TÉCNICO CARPINTERO  ",
+    description:
+    "El programa Técnico en Carpintería está diseñado para formar técnicos con sólidos conocimientos y habilidades prácticas en el...",
+    titleProgram: "Técnico Laboral por Competencias en TÉCNICO CARPINTERO ",
+    descriptionProgram:
+    "El programa Técnico en Carpintería está diseñado para formar técnicos con sólidos conocimientos y habilidades prácticas en el diseño, fabricación, y mantenimiento de productos en madera, combinando técnicas tradicionales con tecnologías modernas. Este programa busca preparar a los egresados para responder a las demandas del sector de carpintería y ebanistería, tanto en el ámbito local como internacional, promoviendo la innovación, la calidad, y la creación de soluciones personalizadas para el mercado.",
+    recordsProgram:
+      "Resolución No. 2417 de 2024 de la Secretaria de Educación del Municipio de Villavicencio.",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:"1.	Desarrollar en los estudiantes las habilidades y destrezas necesarias para diseñar, fabricar, ensamblar, y mantener productos en madera, utilizando herramientas y técnicas modernas de carpintería y ebanistería.<br/> 2. Fomentar el uso de tecnologías avanzadas, como el diseño asistido por computadora (CAD) y maquinaria especializada, para la creación de productos innovadores y de alta calidad que satisfagan las necesidades del mercado.<br/> 3. Capacitar a los estudiantes en prácticas seguras de trabajo y en el uso responsable de recursos naturales, promoviendo la sostenibilidad ambiental en todos los procesos productivos.<br/> 4. Preparar a los futuros técnicos para emprender y gestionar proyectos de carpintería, promoviendo el liderazgo, la gestión administrativa, y la creación de empresas propias en el sector.<br/> 5. Integrar experiencias de aprendizaje práctico a través de talleres y proyectos, permitiendo a los estudiantes aplicar sus conocimientos en escenarios reales del sector de la carpintería.<br/> 6. Promover valores como la responsabilidad, el trabajo colaborativo, y la ética para desempeñarse con éxito en entornos laborales y contribuir al desarrollo del sector carpintero.",
+        graduateProfile:
+    "El egresado del programa Técnico en Carpintería será un técnico integral, capacitado en el diseño, fabricación y mantenimiento de productos en madera, con dominio de herramientas, tecnologías modernas y prácticas sostenibles. Su formación incluye competencias técnicas, creativas y empresariales, permitiéndole destacar en talleres, industrias del sector o como emprendedor.",
+    cetification: "Técnico Laboral por Competencias en TÉCNICO CARPINTERO.",
+    occupationalProfile:
+    "El Técnico CARPINTERO se puede desempeñarse en los siguientes cargos y/o actividades productivas, entre otros: Carpintero en talleres, industrias madereras y constructoras, Ebanista en la fabricación y restauración de muebles, Diseñador de productos en madera, utilizando herramientas manuales y tecnologías asistidas por computadora (CAD), Técnico en mantenimiento y reparación de estructuras y mobiliario en madera, Supervisor de procesos de producción en carpintería y ebanistería, Asesor en proyectos de diseño y fabricación de muebles personalizados, Emprendedor en la creación de negocios propios en carpintería, ebanistería o decoración en madera.",
+      loginRequirements:
+      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado. <br/> Documentación Requerida: <br/> - Copia del documento de identificación al 150%. <br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público. <br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la Productividad",
+          "Introducción a la Carpintería",
+          "Diseño y Lectura de Planos",
+          "Física y Metrología",
+          "Herramientas y Materiales en Carpintería",
+          "Informática Aplicada",
+          "Cultura Física",
+
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Ingles Aplicado",
+          "Fundamentos Administrativos",
+          "Carpintería Fina y Acabados",
+          "Elaboración de productos de ebanistería y muebles",
+          "Técnicas Básicas de Corte y Ensamble",
+          "Mantenimiento y Cuidado de Herramientas",
+          "Diseño Asistido por Computadora (CAD) para Carpintería",
+          "Seguridad Industrial y Salud Ocupacional",
+
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Ética y Transformación del Entorno",
+          "Gestión y Creación Empresarial",
+          "Ensambles Estructurales",
+          "Acabado y tapizado de muebles",
+          "Proyectos",
+          "Construcción de proyectos.",
+          "Innovación y Nuevas Tecnologías en Carpintería",
+          "Gestión Ambiental y Sostenibilidad en Carpintería",
+
+        ],
+      },
+    ],
+  },
+  {
+    title: "Técnico Laboral por Competencias en Auxiliar en Información Turística",
+    description:
+    "El programa Técnico Laboral por Competencias en Auxiliar en Información Turística forma técnicos capaces",    
+    titleProgram: "Técnico Laboral por Competencias en Auxiliar en Información Turística",
+    descriptionProgram:
+    "El programa Técnico Laboral por Competencias en Auxiliar en Información Turística forma técnicos capaces de brindar atención y orientación de calidad a turistas, gestionar información sobre destinos, y apoyar en la organización de actividades turísticas. Con un enfoque en el patrimonio cultural, la sostenibilidad y las tendencias del sector, prepara a los egresados para destacarse en un entorno competitivo y globalizado.",  
+    recordsProgram:
+      "Resolución No. 2417 de 2024 de la Secretaria de Educación del Municipio de Villavicencio.",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:
+    "1.	Formar técnicos competentes en la atención y orientación al turista, con habilidades para gestionar información y servicios turísticos de manera eficiente y con calidad.<br/> 2. Promover el conocimiento del patrimonio cultural y natural, capacitando a los estudiantes para valorarlo y difundirlo como parte fundamental de la experiencia turística.<br/> 3. Desarrollar competencias en gestión administrativa y digital, aplicadas al ámbito turístico, incluyendo el uso de herramientas tecnológicas y estrategias de mercadeo.<br/> 4. Incentivar prácticas sostenibles en turismo, integrando principios de sostenibilidad y responsabilidad ambiental en todas las actividades del sector.<br/> 5. Preparar a los estudiantes para el trabajo en equipo y la resolución de problemas, fortaleciendo su ética profesional y habilidades interpersonales para responder a las necesidades de un mercado global.",
+    graduateProfile:
+    "El egresado estará capacitado para orientar y asistir a turistas, gestionar información sobre destinos, y apoyar en la planificación y promoción de actividades turísticas. Dominará habilidades en atención al cliente, manejo de herramientas tecnológicas y promoción del patrimonio cultural y natural, con un enfoque en sostenibilidad y responsabilidad ambiental. Estará preparado para desempeñarse en agencias de viajes, hoteles, operadores turísticos, oficinas de información y emprendimientos propios, destacándose por su ética, calidad en el servicio y adaptación a las tendencias del sector turístico.",
+    cetification: "Técnico Laboral por Competencias en Auxiliar en Información Turística.",
+    occupationalProfile:
+    "El Técnico en Auxiliar en Información Turística se puede desempeñarse en los siguientes cargos y/o actividades productivas, entre otros: Auxiliar de información turística en oficinas de turismo, agencias de viajes y empresas de transporte, Asesor en promoción y comercialización de destinos turísticos, Coordinador de actividades recreativas y culturales en hoteles y operadores turísticos, Guía auxiliar en recorridos culturales, naturales y experienciales, Asistente en la organización de eventos turísticos y actividades temáticas, Colaborador en el diseño y gestión de estrategias de mercadeo digital y redes sociales para el sector turístico, Emprendedor en la creación de servicios turísticos innovadores, sostenibles y orientados a experiencias personalizadas.",
+    loginRequirements:
+    "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado. <br/> Documentación Requerida: <br/> - Copia del documento de identificación al 150%. <br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público. <br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la Productividad",
+          "Introducción al Turismo",
+          "Fundamentos Contables",
+          "Etiqueta y Protocolo Empresarial",
+          "Informática Aplicada",
+          "Cultura Física",
+
+
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Ingles Aplicado I",
+          "Fundamentos Administrativos",
+          "Recepción y Alojamiento",
+          "Costos y Presupuesto",
+          "Atención y Servicio al Cliente",
+          "Mercadeo Digital y Gestión de Redes Sociales",
+          "Salud Ocupacional",
+
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Ingles Aplicado II",
+          "Gestión y Creación Empresarial",
+          "Ética y Transformación del Entorno",
+          "Legislación Turística y Normativa Internacional",
+          "Proyectos",
+          "Patrimonio Turístico y Gestión de Destinos",
+          "Organización de Eventos y Turismo Experiencial",
+          "Cultura Ambiental y Sostenibilidad Turística",
+
+
+        ],
+      },
+    ],
+  },
+  {
+    title: "Técnico Laboral por Competencias en AUXILIAR TÉCNICO DE INSTALACIÓN, MANTENIMIENTO Y REPARACIÓN DE SISTEMAS DE TELECOMUNICACIONES   ",
+    description:
+   "El programa Técnico Laboral por Competencias en Auxiliar Técnico de Instalación, Mantenimiento y Reparación de Sistemas de Telecomunicaciones de CENTEC forma Técnicos...",
+    titleProgram: "Técnico Laboral por Competencias en AUXILIAR TÉCNICO DE INSTALACIÓN, MANTENIMIENTO Y REPARACIÓN DE SISTEMAS DE TELECOMUNICACIONES    ",
+    descriptionProgram:
+      "El programa Técnico Laboral por Competencias en Auxiliar Técnico de Instalación, Mantenimiento y Reparación de Sistemas de Telecomunicaciones de CENTEC forma técnicos capacitados para instalar, configurar y mantener sistemas de telecomunicaciones, redes y equipos tecnológicos. Con un enfoque práctico, los estudiantes adquieren habilidades en fibra óptica, administración de redes, ciberseguridad y normativas técnicas, garantizando una formación integral y acorde a las demandas del sector.",
+    recordsProgram:
+      "Resolución No. 2417 de 2024 de la Secretaria de Educación del Municipio de Villavicencio.",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:
+      "1.	Formar técnicos capaces de instalar, configurar, mantener y reparar sistemas de telecomunicaciones, redes y equipos tecnológicos de manera eficiente y segura. <br/> 2. Capacitar a los estudiantes en el cumplimiento de normativas técnicas, legales y de seguridad industrial aplicables al sector de las telecomunicaciones.<br/> 3. Preparar a los estudiantes para identificar y resolver problemas técnicos en sistemas de telecomunicaciones, utilizando herramientas y metodologías modernas.<br/> 4. Formar técnicos actualizados en tecnologías emergentes como fibra óptica, ciberseguridad y administración de redes, con un enfoque en el desarrollo sostenible.<br/> 5. Impulsar competencias en ética, trabajo en equipo y comunicación efectiva, promoviendo la responsabilidad y el liderazgo en entornos laborales.",
+    graduateProfile:
+      "El egresado del programa Técnico Laboral por Competencias en Auxiliar Técnico de Instalación, Mantenimiento y Reparación de Sistemas de Telecomunicaciones estará capacitado para instalar, configurar, mantener y reparar sistemas de telecomunicaciones, redes y equipos tecnológicos. Se destacará por su conocimiento en fibra óptica, ciberseguridad y normativas técnicas, así como por su compromiso con la sostenibilidad, la ética y la resolución eficiente de problemas en entornos laborales dinámicos.",
+    cetification: "Técnico Laboral por Competencias en AUXILIAR TÉCNICO DE INSTALACIÓN, MANTENIMIENTO Y REPARACIÓN DE SISTEMAS DE TELECOMUNICACIONES.",
+    occupationalProfile:
+      "El Técnico en AUXILIAR TÉCNICO DE INSTALACIÓN, MANTENIMIENTO Y REPARACIÓN DE SISTEMAS DE TELECOMUNICACIONES se puede desempeñarse en los siguientes cargos y/o actividades productivas, entre otros: Asistente técnico de telecomunicaciones, Auxiliar técnico de telecomunicaciones, Instalador de equipos de telecomunicaciones, Instalador de estación telefónica, Instalador de teléfonos, Liniero de telecomunicaciones, Operario de conexiones, Reparador de equipos de telecomunicaciones, Reparador de telecomunicaciones, Reparador de telefonía celular, Reparador o instalador de equipo telefónico, Trabajador de instalación y reparación de equipos de telecomunicaciones.",
+    loginRequirements:
+      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado. <br/> Documentación Requerida: <br/> - Copia del documento de identificación al 150%. <br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público. <br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la Productividad",
+          "Fundamentos de Telecomunicaciones",
+          "Física y Metrología",
+          "Herramientas, Instrumentación y Control",
+          "Informática Aplicada",
+          "Cultura Física",
+          
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Ingles Aplicado",
+          "Fundamentos Administrativos",
+          "Fibra Óptica, Propagación y Antenas",
+          "Fundamentos de Campos Electromagnéticos",
+          "Electricidad y Electrónica Aplicadas",
+          "Taller de Programación de Sistemas",
+          "Seguridad Industrial y Salud Ocupacional",
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Ética y Transformación del Entorno",
+          "Proyecto de Telecomunicaciones",
+          "Gestión y Creación Empresarial",
+          "Sistemas de Comunicaciones",
+          "Instalación, Configuración, Mantenimiento y Administración de Redes",
+          "Normativa y Regulaciones en Telecomunicaciones",
+          "Fundamentos Ciberseguridad ",
+          "Cultura Ambiental",
+
+        ],
+      },
+    ],
+  },
+  {
+    title: "Técnico Laboral por Competencias en SISTEMAS DE REFRIGERACIÓN COMERCIAL E INDUSTRIAL",
+    description:
+      "El programa Técnico Laboral por Competencias en Sistemas de Refrigeración Comercial e Industrial de CENTEC está diseñado para formar Técnicos...",
+    titleProgram: "Técnico Laboral por Competencias en SISTEMAS DE REFRIGERACIÓN COMERCIAL E INDUSTRIAL",
+    descriptionProgram:
+      "El programa Técnico Laboral por Competencias en Sistemas de Refrigeración Comercial e Industrial de CENTEC está diseñado para formar técnicos capacitados en la instalación, diagnóstico, mantenimiento preventivo y correctivo de sistemas de refrigeración y climatización. Con un enfoque práctico, los estudiantes adquirirán habilidades en automatización, control, uso racional de la energía y manejo de refrigerantes ecológicos, cumpliendo con normativas actuales y estándares de sostenibilidad.",
+    recordsProgram:
+      "Resolución No. 2417 de 2024 de la Secretaria de Educación del Municipio de Villavicencio.",
+    timeProgram: "1.200 horas / 3 semestres",
+    objectiveProgram:
+      "1.	Capacitar a los estudiantes en la instalación, diagnóstico, mantenimiento preventivo y correctivo de sistemas de refrigeración y climatización en entornos comerciales e industriales. <br/> 2. Formar técnicos que dominen herramientas de automatización, control y manejo de refrigerantes ecológicos, alineados con las tendencias actuales de sostenibilidad. <br/> 3. Instruir a los estudiantes en la aplicación de normativas técnicas, legales y de seguridad industrial, como RETIE, para garantizar prácticas seguras y eficientes.<br/> 4. Preparar a los estudiantes para resolver fallas complejas en sistemas de refrigeración mediante el uso de análisis técnico y metodologías modernas.<br/> 5. Fomentar competencias en ética, liderazgo, emprendimiento y trabajo en equipo, promoviendo una formación integral y competitiva en el mercado laboral.",
+    graduateProfile:
+    "El egresado del programa Técnico Laboral por Competencias en Sistemas de Refrigeración Comercial e Industrial estará capacitado para instalar, diagnosticar, mantener y reparar sistemas de refrigeración y climatización en entornos comerciales e industriales. Poseerá conocimientos en automatización, manejo de refrigerantes ecológicos y normativas técnicas como RETIE, destacándose por su compromiso con la sostenibilidad, la seguridad laboral y la eficiencia energética. Además, contará con habilidades en liderazgo, ética y gestión empresarial, preparándolo para asumir retos en un sector dinámico y en constante evolución.",
+    cetification: "Técnico Laboral por Competencias en SISTEMAS DE REFRIGERACIÓN COMERCIAL E INDUSTRIAL.",
+    occupationalProfile:
+    "El Técnico en SISTEMAS DE REFRIGERACIÓN COMERCIAL E INDUSTRIAL   se puede desempeñarse en los siguientes cargos y/o actividades productivas, entre otros: Técnicos mantenimiento y reparación de sistemas de refrigeración y aires acondicionados comerciales e Industrial, Auxiliar de mantenimientos y reparación de sistemas de refrigeración y aires acondicionados comerciales e Industrial, Capacidad para formar y gestionar su propio negocio enfocado en la instalación, mantenimiento y reparación de sistemas de refrigeración y aire acondicionado en diferentes sectores productivos.",
+      loginRequirements:
+      "Edad mínima: 14 años.<br/> Nivel de escolaridad: A partir de 10° grado. <br/> Documentación Requerida: <br/> - Copia del documento de identificación al 150%. <br/> - Copia del diploma de bachiller/acta de grado o certificado de estudio si está cursando 10°. <br/> - Fotocopia de un recibo de servicio público. <br/> - Formato de inscripción diligenciado.",
+    studyPlan: [
+      {
+        semestrer: "I Semestre",
+        subject: [
+          "Técnicas de Estudio",
+          "Matemáticas para la Productividad",
+          "Mecánica General",
+          "Física y Metrología",
+          "Herramientas, Instrumentación y Control",
+          "Informática Aplicada",
+          "Cultura Física",        
+        ],
+      },
+      {
+        semestrer: "II Semestre",
+        subject: [
+          "Ingles Aplicado",
+          "Fundamentos Administrativos",
+          "Diagnóstico, Mantenimiento Preventivo y Correctivo en Refrigeración y Climatización",
+          "Análisis de Sistemas Polifásicos",
+          "Circuitos Eléctricos",
+          "Uso Racional de la Energía y RETIE",
+          "Seguridad Industrial y Salud Ocupacional",
+        ],
+      },
+      {
+        semestrer: "III Semestre",
+        subject: [
+          "Ética y Transformación del Entorno",
+          "Gestión y Creación Empresarial",
+          "Automatización y Control en Refrigeración y Climatización",
+          "Fallas en Refrigeración y Climatización",
+          "Sistemas Electrónicos",
+          "Refrigerantes Ecológicos y Nuevas Tecnologías",
+          "Cultura Ambiental",
+        ],
+      },
+    ],
+  },
 ];
 
 export const ACACIAS_PROGRAMS = [

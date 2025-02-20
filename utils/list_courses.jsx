@@ -58,7 +58,34 @@ export const VILLAVICENCIO = [
         name: "Operador de equipo pesado",
         time: "1.200 horas / 3 semestres",
         description: "El Programa Técnico Laboral por Competencias en Operador de Equipo Pesado de CENTEC tiene como objetivo fundamental fomentar en los..."
+    },
+    {
+        name: "Técnico Laboral por Competencias en ELECTROMECÁNICO  ",
+        time: "1.200 horas / 3 semestres",
+        description: "El programa Técnico Laboral por Competencias en Electromecánica de CENTEC está diseñado para formar Tecnicos..."
+    },
+    {
+        name: "Técnico Laboral por Competencias en AUXILIAR TÉCNICO DE INSTALACIÓN, MANTENIMIENTO Y REPARACIÓN DE SISTEMAS DE TELECOMUNICACIONES",
+        time: "1.200 horas / 3 semestres",
+        description: "El programa Técnico Laboral por Competencias en Auxiliar Técnico de Instalación, Mantenimiento y Reparación de Sistemas de Telecomunicaciones de CENTEC forma Técnicos..."
+    },
+    {
+        name: "Técnico Laboral por Competencias en SISTEMAS DE REFRIGERACIÓN COMERCIAL E INDUSTRIAL  ",
+        time: "1.200 horas / 3 semestres",
+        description: "El programa Técnico Laboral por Competencias en Sistemas de Refrigeración Comercial e Industrial de CENTEC está diseñado para formar Técnicos..."
+    },
+    {
+        name: "Técnico Laboral por Competencias en TÉCNICO CARPINTERO",
+        time: "1.200 horas / 3 semestres",
+        description: "El programa Técnico en Carpintería está diseñado para formar técnicos con sólidos conocimientos y habilidades prácticas en el..."
+    },
+    {
+        name: "Técnico Laboral por Competencias en Auxiliar en Información Turística",
+        time: "1.200 horas / 3 semestres",
+        description: "El programa Técnico Laboral por Competencias en Auxiliar en Información Turística forma técnicos capaces..."
     }
+
+
 
 ]
 

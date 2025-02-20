@@ -1,0 +1,21 @@
+import Link from "next/link";
+
+export default function Navbar() {
+  return (
+    <nav style={{ padding: "10px", background: "#333", display: "flex", justifyContent: "center" }}>
+      <Link href="https://cpanel4-co.conexcol.net:2096/" target="_blank" rel="noopener noreferrer">
+        <button
+          style={{
+            padding: "10px 20px",
+            background: "transparent",
+            color: "white",
+            border: "2px solid blue",
+            cursor: "pointer",
+          }}
+        >
+          Ir a mi email
+        </button>
+      </Link>
+    </navbar.js>
+  );
+}
