@@ -151,12 +151,19 @@ export const CARD = [
     title: "Innovación y Emprendimiento",
     urlPath: "/inoovacion-y-emprendimiento",
   },
+  {
+    title: "Innovación y Emprendimiento",
+    urlPath: "https://virtual.educentec.edu.co/login/index.php",
+  },
 ];
 
 export const NavigationMobil = [
-  { title: "Nuestra Instutución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
   {
-    title: "Adminisiones y Financiación",
+    title: "Nuestra Instutución",
+    urlPath: "/nuestra-institucion",
+    icon: UserGroupIcon },
+  {
+    title:"Adminisiones y Financiación",
     urlPath: "/admisiones-y-financiacion",
     icon: CurrencyDollarIcon,
   },
@@ -165,8 +172,31 @@ export const NavigationMobil = [
     urlPath: "/programas-tecnicos-laborales",
     icon: QueueListIcon,
   },
-  { title: "Colegio CENTEC", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
-  { title: "Bienestar", urlPath: "/bienestar", icon: UsersIcon },
-  { title: "Educación Continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
-  { title: "Innovación y Emprendimiento", urlPath: "/inoovacion-y-emprendimiento", icon: BeakerIcon },
+  {
+    title: "Colegio CENTEC", 
+    urlPath: "/colegio-centec",
+    icon: BuildingLibraryIcon 
+  },
+  {
+    title: "Bienestar",
+    urlPath: "/bienestar",
+    icon: UsersIcon
+  },
+  {
+    title: "Educación Continua",
+    urlPath: "/educacion-continua",
+    icon: BookOpenIcon
+  },
+  {
+    title: "Innovación y Emprendimiento",
+    urlPath: "/inoovacion-y-emprendimiento",
+    icon: BeakerIcon
+  },
+  {
+    title: "Virtualidad",
+    urlPath: "https://virtual.educentec.edu.co/login/index.php",
+    icon: BeakerIcon
+  },
+  
+
 ];
