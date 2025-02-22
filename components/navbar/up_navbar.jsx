@@ -27,6 +27,12 @@ export default function UpNavbar() {
             </Link>
           </div>
           <div className="flex items-center gap-6">
+          <Link
+              className="items-center justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors text-white active:bg-gray-800 active:text-white/80 hidden lg:block"
+              variant="solid"
+              color="gray"
+              href="https://cpanel4-co.conexcol.net:2096/"
+            >Correo institucional</Link>
             <button
               type="button"
               className={`-m-2.5 inline-flex lg:hidden items-center justify-center rounded-md p-2.5 text-gray-50 ${mobileMenuOpen ? 'hidden' : ''}`}

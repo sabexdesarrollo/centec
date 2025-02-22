@@ -152,7 +152,7 @@ export const CARD = [
     urlPath: "/inoovacion-y-emprendimiento",
   },
   {
-    title: "Innovación y Emprendimiento",
+    title: "Virtualidad",
     urlPath: "https://virtual.educentec.edu.co/login/index.php",
   },
 ];
