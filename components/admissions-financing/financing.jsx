@@ -1,5 +1,5 @@
 import Image from "next/image";
-import images from "@/assets/images/dir";
+
 import {
   ShieldCheckIcon,
   ScaleIcon,
@@ -38,11 +38,12 @@ export default function Financing({
   textColorDescrip,
   bg,
   version,
+  id
 }) {
   const textFinancing = TEXT_COMPONENTS[version];
   return (
     <div
-      id="financiacion"
+      id={id}
       className={`overflow-hidden py-20 sm:py-32 lg:py-32 ${bg}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -53,7 +54,7 @@ export default function Financing({
             >
               Financiación
             </h3>
-            <p className={`py-6 text-base lg:text-lg ${textColorDescrip}`}>
+            <p className={`py-6 text-lg lg:text-xl ${textColorDescrip}`}>
               <span className={`font-bold ${textColorList}`}>
                 Financiación Directa:{" "}
               </span>
@@ -62,14 +63,14 @@ export default function Financing({
             <dl className="max-w-xl space-y-4 text-base leading-7 text-gray-200 lg:max-w-none">
               {CHARACTERISTIC_CREDIT.map((item, index) => (
                 <div key={index}>
-                  <h3
-                    className={`text-base font-bold ${textColorList} lg:text-lg`}
+                  <p
+                    className={`text-lg font-bold ${textColorList} lg:text-xl`}
                   >
                     <item.icon
                       className={`inline-flex h-6 w-6 ${iconColor} mr-1`}
                     />
                     {item.name}
-                  </h3>
+                  </p>
                 </div>
               ))}
             </dl>
@@ -77,11 +78,13 @@ export default function Financing({
           <div className="relative mx-auto max-w-2xl mt-6 lg:mt-0 lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
             <Image
               alt=""
+              width={500}
+              height={500}
               loading="lazy"
               decoding="async"
               data-nimg="1"
               className="w-[40rem] rounded-3xl rounded-tl-none rounded-br-none shadow-primaryGreen/50 shadow-2xl"
-              src={images.coin}
+              src="https://educentec.edu.co/admisions-financing/coin.webp"
             />
           </div>
         </div>

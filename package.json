@@ -2,9 +2,11 @@
   "name": "centec",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://educentec.edu.co/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -13,13 +15,17 @@
     "@heroicons/react": "^2.1.1",
     "@paypal/checkout-server-sdk": "^1.0.3",
     "@paypal/react-paypal-js": "^8.1.4",
+    "@tailwindcss/forms": "^0.5.7",
     "centec": "file:",
+    "crypto-js": "^4.2.0",
     "eslint": "^8.57.0",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "server-only": "^0.0.1"
+    "server-only": "^0.0.1",
+    "sharp": "^0.33.4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

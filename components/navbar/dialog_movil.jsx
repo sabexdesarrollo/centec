@@ -7,8 +7,8 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 import { Dialog } from "@headlessui/react";
-import images from "@/assets/images/dir";
 import { NavigationMobil } from "@/utils/navbarInf";
+import BtnInscription from "./btn_inscription";
 
 export default function DialogMovil({
   mobileMenuOpen,
@@ -40,7 +40,7 @@ export default function DialogMovil({
             className="-m-1.5 p-1.5"
           >
             <span className="sr-only">Clap</span>
-            <Image className="w-[14rem]" src={images.lgtp_white} alt="logo" />
+            <Image width={500} height={500} className="w-[14rem]" src="https://educentec.edu.co/lgtp_white.png" alt="logo" />
           </a>
           <button
             type="button"
@@ -80,6 +80,10 @@ export default function DialogMovil({
                 Contactanos
               </span>
             </Link>
+            <BtnInscription
+            show="inline-block"
+            hidden=""
+            />
           </div>
         </div>
       </Dialog.Panel>

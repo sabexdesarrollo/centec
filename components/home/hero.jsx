@@ -1,17 +1,15 @@
-import Image from "next/image";
-import images from "@/assets/images/dir";
 import { FaLink } from "react-icons/fa6";
+import Image from "next/image";
 import Link from "next/link";
-
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden py-20 sm:py-32 bg-primaryBlue">
+    <div className="relative overflow-hidden py-20 sm:py-32 bg-secondaryDarkBlue">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div className="relative z-0 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
-            <h1 className="text-4xl font-bold tracking-tight text-left">
+            <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-left">
               Nuestros Cursos y Sedes en CENTEC
-            </h1>
+            </h2>
             <p className="mt-6 text-gray-50 text-lg">
               En CENTEC, nos comprometemos a ofrecer más que solo educación; nos
               esforzamos por cultivar un ambiente donde la excelencia académica
@@ -41,7 +39,7 @@ export default function Hero() {
                   </Link>
                 </li>
 
-                <li className="flex items-center space-x-2 bg-secondaryDarkBlue/30 p-3 rounded-l-full">
+                <li className="flex items-center space-x-2 bg-primaryBlue/30 p-3 rounded-l-full">
                   <Link
                     className="text-gray-300 font-bold w-full"
                     href="/programas-tecnicos-laborales#sede-granada"
@@ -58,12 +56,14 @@ export default function Hero() {
           </div>
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6 my-auto bg-black/5">
             <Image
+              width={500}
+              height={500}
               alt=""
               loading="lazy"
               decoding="async"
               data-nimg="1"
               className="w-[70rem] -z-50"
-              src={images.smile_persons}
+              src="https://educentec.edu.co/multiple_persons_smile.webp"
             />
           </div>
         </div>

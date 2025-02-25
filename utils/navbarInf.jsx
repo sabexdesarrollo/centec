@@ -80,15 +80,15 @@ export const CARD = [
     urlPath: "/programas-tecnicos-laborales",
     submenu: [
       {
-        title: "Sede villavicencio",
+        title: "Sede Villavicencio",
         urlPath: "/programas-tecnicos-laborales#sede-villavicencio",
       },
       {
-        title: "Sede acacias",
+        title: "Sede Acacias",
         urlPath: "/programas-tecnicos-laborales#sede-acacias",
       },
       {
-        title: "Sede granada",
+        title: "Sede Granada",
         urlPath: "/programas-tecnicos-laborales#sede-granada",
       },
     ],
@@ -111,8 +111,12 @@ export const CARD = [
       urlPath: "/colegio-centec#valores-institucionales",
     },
     {
-      title: "Admisiones y financiacion",
-      urlPath: "/colegio-centec#adminsiones-y-financiaciones",
+      title: "Inscripcion y pagos",
+      urlPath: "/colegio-centec#inscripcion",
+    },
+    {
+      title: "Admisiones y financiación",
+      urlPath: "/colegio-centec#adminsiones-y-financiacion",
     },
     {
       title: "Subsidios educativos",
@@ -149,7 +153,7 @@ export const CARD = [
   },
   {
     title: "Innovación y Emprendimiento",
-    urlPath: "/inoovacion-y-emprendimiento",
+    urlPath: "/innovacion-y-emprendimiento",
   },
   {
     title: "Virtualidad",
@@ -158,12 +162,10 @@ export const CARD = [
 ];
 
 export const NavigationMobil = [
+  { title: "Nuestra Institución", urlPath: "/nuestra-institucion", icon: UserGroupIcon },
+  { title: "Bienestar", urlPath: "/bienestar", icon: UsersIcon },
   {
-    title: "Nuestra Instutución",
-    urlPath: "/nuestra-institucion",
-    icon: UserGroupIcon },
-  {
-    title:"Adminisiones y Financiación",
+    title: "Adminisiones y Financiación",
     urlPath: "/admisiones-y-financiacion",
     icon: CurrencyDollarIcon,
   },
@@ -172,31 +174,11 @@ export const NavigationMobil = [
     urlPath: "/programas-tecnicos-laborales",
     icon: QueueListIcon,
   },
-  {
-    title: "Colegio CENTEC", 
-    urlPath: "/colegio-centec",
-    icon: BuildingLibraryIcon 
-  },
-  {
-    title: "Bienestar",
-    urlPath: "/bienestar",
-    icon: UsersIcon
-  },
-  {
-    title: "Educación Continua",
-    urlPath: "/educacion-continua",
-    icon: BookOpenIcon
-  },
-  {
-    title: "Innovación y Emprendimiento",
-    urlPath: "/inoovacion-y-emprendimiento",
-    icon: BeakerIcon
-  },
+  { title: "Colegio CENTEC", urlPath: "/colegio-centec", icon: BuildingLibraryIcon },
+  { title: "Educación Continua", urlPath: "/educacion-continua", icon: BookOpenIcon },
+  { title: "Innovación y Emprendimiento", urlPath: "/innovacion-y-emprendimiento", icon: BeakerIcon },
   {
     title: "Virtualidad",
-    urlPath: "https://virtual.educentec.edu.co/login/index.php",
-    icon: BeakerIcon
+    urlPath: "https://virtual.educentec.edu.co/login/index.php", icon: BeakerIcon 
   },
-  
-
 ];

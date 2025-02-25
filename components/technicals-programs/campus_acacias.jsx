@@ -5,7 +5,7 @@ export default function CampusAcacias() {
   return (
     <section
       id="sede-acacias"
-      className="overflow-hidden py-20 sm:py-32 bg-secondaryGreen"
+      className="overflow-hidden py-20 sm:py-32 bg-primaryBlue"
     >
       <Campus
         bgLeft="from-primaryGreen"
@@ -16,6 +16,7 @@ export default function CampusAcacias() {
         textColorTime="text-secondaryDarkBlue"
         bgTime="bg-gray-300"
         campusName="Sede Acacias (Meta)"
+        colorTitle="text-white"
       />
     </section>
   );

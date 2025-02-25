@@ -2,7 +2,6 @@ import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
 import { LIST_REGISTRATION_REQUIREMENTS } from "@/utils/registration_requirements_list";
-import images from "@/assets/images/dir";
 
 export default function RegistrationRequirements() {
   return (
@@ -10,17 +9,17 @@ export default function RegistrationRequirements() {
       id="requisitos-de-matricula"
       className="relative overflow-hidden py-20 sm:py-32 lg:py-32 bg-white"
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-5 lg:px-8"></div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-secondaryDarkBlue/90">
         <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
           <div class="lg:block relative hidden mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6 my-auto">
             <Image
               alt=""
+              width={500} height={500}
               loading="lazy"
               decoding="async"
               data-nimg="1"
               className="w-full rounded-tl-3xl rounded-br-3xl border border-secondaryGreen"
-              src={images.student}
+              src="https://educentec.edu.co/student.jpg"
             />
           </div>
           <div className="relative mx-auto max-w-2xl lg:col-span-7 lg:max-w-none xl:col-span-6">

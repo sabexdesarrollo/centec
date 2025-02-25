@@ -5,8 +5,8 @@ import { PhoneArrowUpRightIcon, Bars3Icon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import { useState } from "react";
 
-import images from "@/assets/images/dir";
 import DialogMovil from "@/components/navbar/dialog_movil";
+import BtnInscription from "./btn_inscription";
 
 export default function UpNavbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,12 +17,13 @@ export default function UpNavbar() {
           <div className={`relative lg:z-10 flex items-center gap-5 ${mobileMenuOpen ? 'hidden' : ''}`}>
             <Link href="/">
               <Image
+              width={500} height={500}
                 alt="logo"
                 loading="lazy"
                 decoding="async"
                 data-nimg="1"
                 className="w-[14rem]"
-                src={images.lgtp_white}
+                src="https://educentec.edu.co/lgtp_white.png"
               />
             </Link>
           </div>
@@ -33,6 +34,10 @@ export default function UpNavbar() {
               color="gray"
               href="https://cpanel4-co.conexcol.net:2096/"
             >Correo institucional</Link>
+            <BtnInscription
+            show="lg:inline-block"
+            hidden="hidden"
+            />
             <button
               type="button"
               className={`-m-2.5 inline-flex lg:hidden items-center justify-center rounded-md p-2.5 text-gray-50 ${mobileMenuOpen ? 'hidden' : ''}`}

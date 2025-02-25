@@ -1,4 +1,5 @@
-import ButtonPaypal from "./button_paypal";
+import FormPayU from "@/components/_payU/payU";
+import { LABOR_TECHNICIANS } from "@/utils/payU/labor_tecnicians";
 
 export default function Inscription() {
   return (
@@ -6,21 +7,13 @@ export default function Inscription() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl pb-8 lg:mx-0 lg:max-w-3xl">
           <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-white">
-            Inscripción
+            Inscripción / Pagos
           </h2>
-          <p className="mt-2 text-lg text-gray-300">
-            Formulario de inscription [en proceso...]
-          </p>
-          <form className="p-2 text-gray-600" action="">
-            <input className="p-2" type="text" placeholder="Nombre completo" />
-            <input
-              className="p-2 ml-2"
-              type="text"
-              placeholder="Correo electrónico"
+          <div className="max-w-3xl">
+            <FormPayU 
+            centecSelect={LABOR_TECHNICIANS}
             />
-            <input className="p-2 ml-2" type="text" placeholder="Cedula" />
-          </form>
-          <ButtonPaypal />
+          </div>
         </div>
       </div>
     </div>
